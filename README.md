@@ -4,7 +4,7 @@
 
 ### Environment
 
-The code has been tested by Matlab R2014b. This code is based on FFCSC (https://github.com/baopingli/FFCSC2015).
+The code has been tested by Matlab R2014b. This code is based on [FFCSC](https://github.com/baopingli/FFCSC2015).
 
 ### Reconstruction
 
@@ -13,6 +13,7 @@ learn_kernels_2D.m
 ```
 
 The results after 20 epochs.
+
 | Model | Fruit_PSNR (dB) | Fruit_SSIM | City_PSNR (dB) | City_SSIM |
 | ----- | ------- | ------- | ------- | ------- |
 | FFCSC | 26.70 | 0.9602 | 26.98 | 0.9618 | 
@@ -25,6 +26,7 @@ learn_kernels_2D_sparse.m
 ```
 
 The results after 20 epochs.
+
 | Model | Fruit_PSNR (dB) | Fruit_SSIM | City_PSNR (dB) | City_SSIM |
 | ----- | ------- | ------- | ------- | ------- |
 | FFCSC | 23.65 | 0.9000 | 24.31 | 0.9199 |

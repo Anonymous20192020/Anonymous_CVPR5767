@@ -35,9 +35,10 @@ The results after 20 epochs.
 
 ## CNNs pruning
 
-### Environment
+The code will be updated soon.
+<!-- ### Environment -->
 
-In this code, you can run our model on ImageNet dataset. The code has been tested by Python 3.6, [Pytorch 0.4.1](https://pytorch.org/) and CUDA 9.0 on Ubuntu 16.04.
+<!-- In this code, you can run our model on ImageNet dataset. The code has been tested by Python 3.6, [Pytorch 0.4.1](https://pytorch.org/) and CUDA 9.0 on Ubuntu 16.04.
 
 ### Run examples
 First, you need install ptflops to calculate flops
@@ -63,7 +64,7 @@ Then you can test our trained model:
 cd RLP_ImageNet
 CUDA_VISIBLE_DEVICES=0 python3 finetune_resnet.py --refine model.pt --pruned_dir model_pruned.pt
 ```
-
+ -->
 
 
 
